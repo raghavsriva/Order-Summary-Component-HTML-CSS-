@@ -1,0 +1,95 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.background-img {
+    position: fixed;
+    z-index: -1;
+    margin: 0%;
+}
+
+.image {
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    right: 13px;
+    width: 430px;
+}
+
+.container {
+    z-index: 1;
+    display: inline-block;
+    margin: 50px 250px 0px 475px;
+    height: 600px;
+    width: 430px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.intro {
+    color: grey;
+    padding: 1% 5% 1%;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px auto 0px;
+}
+
+.inner-div {
+    background-color: hsl(225, 100%, 98%);
+    margin: 10px auto 0px auto;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.icon {
+    text-align: left;
+    margin-right: 7px;
+}
+
+.inner-div-p {
+    text-align: left;
+    color: #000;
+}
+
+.inner-div-p1 {
+    color: gray;
+    text-align: left;
+}
+
+.col-1 {
+    margin: 10px 0px 0px 1%;
+}
+
+.col-2 {
+    margin: 30px 0px 0px;
+    text-align: right;
+}
+
+.change {
+    color: hsl(245, 75%, 52%)
+}
+
+.change:hover {
+    color: hsl(224, 23%, 55%);
+}
+
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    padding: 2%;
+    width: 75%;
+    margin: 20px auto 0% auto;
+    border-radius: 7px;
+    box-shadow: 5px 10px 18px hsl(224, 23%, 55%);
+}
+
+.cancel {
+    margin: 20px auto 10px auto;
+}
+
+.cancel a {
+    color: gray;
+}
